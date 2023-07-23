@@ -4,12 +4,70 @@ body{
     background-color:azure;
 }
 
+
+
 h1 {
     color: blue;
     text-align:left;
   }
   
-  p {
-    font-family: verdana;
-    font-size: 20px;
+  h2 {
+    color:black;
+    text-align:left;
+  }
+
+  h3{
+    color:crimson;
+    text-align:left;
+  }
+  
+  legend{
+    color: black;
+  }
+
+  label{
+    color: black;
+}
+  image {
+    size: 120px;
+  }
+
+  .splash{
+    display: none;
+    background-image: url("https://pyxis.nymag.com/v1/imgs/238/c5f/544a19a144fa4c9d7be57af3038079ea37-14-gluten-free-lede.2x.rhorizontal.w700.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    border-bottom: 5px solid #de6b48;
+  }
+
+  .splash h2{
+    
+      margin: 3rem auto;
+    
+      width: 70%;
+  }
+
+  .display{
+    
+    grid: 0%;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  footer {
+    background: black;
+    color:cornflowerblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
+
+  footer ul {
+    color: cornflowerblue;
+    list-style: square;
+    list-style: none;
+    padding-left: 1rem;
   }
